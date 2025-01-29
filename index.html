@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Sistemas - Universidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #84D800;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #FF9900;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 2rem;
+        }
+
+        .section h2 {
+            color: #84D800;
+            margin-bottom: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ecosistema Digital - Ingeniería de Sistemas</h1>
+        <p>Universidad Autonoma de Bucaramanga</p>
+    </header>
+
+    <nav>
+        <a href="#sistemas-informacion">Sistemas de Información</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#lineas">Líneas Temáticas</a>
+    </nav>
+
+    <main>
+        <section id="sistemas-informacion" class="section">
+            <h2>Sistemas de Información</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Proyectos de Grado</h3>
+                    <p>Accede a los proyectos destacados realizados por los estudiantes.</p>
+                </div>
+                <div class="card">
+                    <h3>Actas</h3>
+                    <p>Consulta las actas de reuniones y evaluaciones del programa.</p>
+                </div>
+                <div class="card">
+                    <h3>Guías Cátedra</h3>
+                    <p>Descubre las guías académicas para cada asignatura.</p>
+                </div>
+                <div class="card">
+                    <h3>Proyectos de Clase</h3>
+                    <p>Explora los proyectos realizados durante las clases.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="profesores" class="section">
+            <h2>Profesores</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://admithel.com/wp-content/uploads/2017/12/team-jobsearch-about1-1-1.png" alt="Profesor 1">
+                    <h3>Dr. Juan Pérez</h3>
+                    <p>Especialista en Inteligencia Artificial.</p>
+                </div>
+                <div class="card">
+                    <img src="https://admithel.com/wp-content/uploads/2017/12/team-jobsearch-about1-1-1.png" alt="Profesor 2">
+                    <h3>Ing. María Gómez</h3>
+                    <p>Experta en Desarrollo Web y Aplicaciones Móviles.</p>
+                </div>
+                <div class="card">
+                    <img src="https://admithel.com/wp-content/uploads/2017/12/team-jobsearch-about1-1-1.png" alt="Profesor 3">
+                    <h3>Dr. Carlos Ruiz</h3>
+                    <p>Investigador en Seguridad Informática.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lineas" class="section">
+            <h2>Líneas Temáticas</h2>
+            <ul>
+                <li>Desarrollo de Software</li>
+                <li>Inteligencia Artificial y Machine Learning</li>
+                <li>Sistemas de Información y Base de Datos</li>
+                <li>Redes y Seguridad Informática</li>
+                <li>Arquitectura de Computadores</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Universidad Autonoma de Bucaramanga - Programa de Ingeniería de Sistemas</p>
+    </footer>
+</body>
+</html>
